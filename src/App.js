@@ -91,6 +91,7 @@ render() {
         <img src={naturaldata} 
         onClick={this.handleNaturalData}/>
         <h2>Natural Data</h2>
+        <h3>View the deployed site here: https://sheckjess.github.io/capstone-frontend/</h3>
         <h3>View the frontend repo here: https://github.com/sheckjess/capstone-frontend</h3>
         <h3>View the backend repo here: https://github.com/sheckjess/cpastone-backend</h3>
         <br/>
