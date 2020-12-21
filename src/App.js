@@ -15,15 +15,32 @@ class App extends Component {
 
 
 
-  handleNaturalData = () => {
+  handleNattyDep = () => {
     window.location = "https://github.com/sheckjess/capstone-frontend"
   }
-  handleMRJ = () => {
+  handleNattyFront = () => {
+    window.location = "https://github.com/sheckjess/capstone-frontend"
+  }
+  handleNattyBack = () => {
+    window.location = "https://github.com/sheckjess/cpastone-backend"
+  }
+  handleMRJDep = () => {
     window.location = "https://trusting-noether-000354.netlify.app/"
   }
-  handleABQ = () => {
+  handleMRJFront = () => {
+    window.location = "https://github.com/MatthewKLewis/project-8-frontend"
+  }
+  handleMRJBack = () => {
+    window.location = "https://github.com/MatthewKLewis/project-8-backend"
+  }
+  handleABQDep = () => {
+    window.location = "https://elastic-knuth-dbb421.netlify.app"
+  }
+  handleABQRepo = () => {
     window.location = "https://github.com/sheckjess/ABQ-Trivia"
   }
+
+
 
 
 render() {
@@ -91,24 +108,24 @@ render() {
         <img src={naturaldata} 
         onClick={this.handleNaturalData}/>
         <h2>Natural Data</h2>
-        <h3>View the deployed site here: https://sheckjess.github.io/capstone-frontend/</h3>
-        <h3>View the frontend repo here: https://github.com/sheckjess/capstone-frontend</h3>
-        <h3>View the backend repo here: https://github.com/sheckjess/cpastone-backend</h3>
+        <h3 onClick={this.handleNattyDep}>Deployed View</h3>
+        <h3 onClick={this.handleNattyFront}>Frontend Repo</h3>
+        <h3 onClick={this.handleNattyBack}>Backend Repo</h3>
         <br/>
         <br/>
         <img src={mrj} 
         onClick={this.handleMRJ} />
         <h2>MRJ Fitness</h2>
-        <h3>View the deployed site here: https://trusting-noether-000354.netlify.app/</h3>
-        <h3>View the frontend repo here: https://github.com/MatthewKLewis/project-8-frontend</h3>
-        <h3>View the backend repo here: https://github.com/MatthewKLewis/project-8-backend</h3>
+        <h3 onClick={this.handleMRJDep}>Deployed Site</h3>
+        <h3 onClick={this.handleMRJFront}>Frontend Repo</h3>
+        <h3 onClick={this.handleMRJBack}>Backend Repo</h3>
         <br/>
         <br/>
         <img src={abq} 
         onClick={this.handleABQ} />
         <h2>Welcome to ABQ</h2>
-        <h3>View the deployed site here: https://elastic-knuth-dbb421.netlify.app</h3>
-        <h3>View the repo here: https://github.com/sheckjess/ABQ-Trivia</h3>
+        <h3 onClick={this.handleABQDep}>Deployed Site</h3>
+        <h3 onClick={this.handleABQRepo}>View the repo</h3>
       </div>
 
       <div className="connect">

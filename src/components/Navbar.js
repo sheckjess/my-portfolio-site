@@ -15,15 +15,11 @@ class Navbar extends Component {
     handleGithub = () => {
         window.open("http://www.github.com/sheckjess")
     }
-    handleProjects = () => {
-        console.log('hello')
-    }
+
     handleResume = () => {
         window.open("https://drive.google.com/file/d/1RJSNlAqLiX0vkOnsKz5URLLsh4kF5cqT/view?usp=sharing")
     }
-    handleContact = () => {
 
-    }
 
 
 
@@ -42,24 +38,14 @@ class Navbar extends Component {
                     onClick={this.handleGithub}>
                     GitHub
                 </button>
-                <button
-                    variant="contained"
-                    color="primary"
-                    onClick={this.handleProjects}>
-                    My Projects
-                </button>
+
                 <button
                     variant="contained"
                     color="primary"
                     onClick={this.handleResume}>
                     Resume
                 </button>
-                <button
-                    variant="contained"
-                    color="primary"
-                    onClick={this.handleContact}>
-                    Contact
-                </button>
+
             </div>
         )
     }
