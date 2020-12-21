@@ -91,16 +91,22 @@ render() {
         <img src={naturaldata} 
         onClick={this.handleNaturalData}/>
         <h2>Natural Data</h2>
+        <h3>View the frontend repo here: https://github.com/sheckjess/capstone-frontend</h3>
+        <h3>View the backend repo here: https://github.com/sheckjess/cpastone-backend</h3>
         <br/>
         <br/>
         <img src={mrj} 
         onClick={this.handleMRJ} />
         <h2>MRJ Fitness</h2>
+        <h3>View the deployed site here: https://trusting-noether-000354.netlify.app/</h3>
+        <h3>View the frontend repo here: https://github.com/MatthewKLewis/project-8-frontend</h3>
+        <h3>View the backend repo here: https://github.com/MatthewKLewis/project-8-backend</h3>
         <br/>
         <br/>
         <img src={abq} 
         onClick={this.handleABQ} />
         <h2>Welcome to ABQ</h2>
+        <h3>View the repo here: https://github.com/sheckjess/ABQ-Trivia</h3>
       </div>
 
       <div className="connect">
