@@ -106,6 +106,7 @@ render() {
         <img src={abq} 
         onClick={this.handleABQ} />
         <h2>Welcome to ABQ</h2>
+        <h3>View the deployed site here: https://elastic-knuth-dbb421.netlify.app</h3>
         <h3>View the repo here: https://github.com/sheckjess/ABQ-Trivia</h3>
       </div>
 
