@@ -108,6 +108,7 @@ render() {
         <img src={naturaldata} 
         onClick={this.handleNaturalData}/>
         <h2>Natural Data</h2>
+        <h3>This project was built utilizing React framework for the frontend and Django for the backend.</h3>
         <h4 onClick={this.handleNattyDep}>Deployed View</h4>
         <h4 onClick={this.handleNattyFront}>Frontend Repo</h4>
         <h4 onClick={this.handleNattyBack}>Backend Repo</h4>
@@ -116,6 +117,7 @@ render() {
         <img src={mrj} 
         onClick={this.handleMRJ} />
         <h2>MRJ Fitness</h2>
+        <h3>This project was built out in React and utilizes MongoDB, Node.js, and Expresss.</h3>
         <h4 onClick={this.handleMRJDep}>Deployed Site</h4>
         <h4 onClick={this.handleMRJFront}>Frontend Repo</h4>
         <h4 onClick={this.handleMRJBack}>Backend Repo</h4>
@@ -124,6 +126,7 @@ render() {
         <img src={abq} 
         onClick={this.handleABQ} />
         <h2>Welcome to ABQ</h2>
+        <h3>This project was created using vanilla JavaScript, HTML5, and CSS3.</h3>
         <h4 onClick={this.handleABQDep}>Deployed Site</h4>
         <h4 onClick={this.handleABQRepo}>View the repo</h4>
       </div>
