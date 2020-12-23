@@ -16,7 +16,7 @@ class App extends Component {
 
 
   handleNattyDep = () => {
-    window.location = "https://github.com/sheckjess/capstone-frontend"
+    window.location = "https://capstone-jm.herokuapp.com/"
   }
   handleNattyFront = () => {
     window.location = "https://github.com/sheckjess/capstone-frontend"
