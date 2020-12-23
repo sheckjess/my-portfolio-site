@@ -108,24 +108,24 @@ render() {
         <img src={naturaldata} 
         onClick={this.handleNaturalData}/>
         <h2>Natural Data</h2>
-        <h3 onClick={this.handleNattyDep}>Deployed View</h3>
-        <h3 onClick={this.handleNattyFront}>Frontend Repo</h3>
-        <h3 onClick={this.handleNattyBack}>Backend Repo</h3>
+        <h4 onClick={this.handleNattyDep}>Deployed View</h4>
+        <h4 onClick={this.handleNattyFront}>Frontend Repo</h4>
+        <h4 onClick={this.handleNattyBack}>Backend Repo</h4>
         <br/>
         <br/>
         <img src={mrj} 
         onClick={this.handleMRJ} />
         <h2>MRJ Fitness</h2>
-        <h3 onClick={this.handleMRJDep}>Deployed Site</h3>
-        <h3 onClick={this.handleMRJFront}>Frontend Repo</h3>
-        <h3 onClick={this.handleMRJBack}>Backend Repo</h3>
+        <h4 onClick={this.handleMRJDep}>Deployed Site</h4>
+        <h4 onClick={this.handleMRJFront}>Frontend Repo</h4>
+        <h4 onClick={this.handleMRJBack}>Backend Repo</h4>
         <br/>
         <br/>
         <img src={abq} 
         onClick={this.handleABQ} />
         <h2>Welcome to ABQ</h2>
-        <h3 onClick={this.handleABQDep}>Deployed Site</h3>
-        <h3 onClick={this.handleABQRepo}>View the repo</h3>
+        <h4 onClick={this.handleABQDep}>Deployed Site</h4>
+        <h4 onClick={this.handleABQRepo}>View the repo</h4>
       </div>
 
       <div className="connect">
