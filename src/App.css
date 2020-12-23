@@ -1,6 +1,12 @@
 * {
   background-color: #F0F2D8;
 }
+h3, h4 {
+  line-height: 0.1px;
+}
+h2 {
+  font-size: 32px;
+}
 .header {
   text-align: center;
   padding: 10px;
